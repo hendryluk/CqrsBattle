@@ -1,7 +1,31 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsBattle.Web", "CqrsBattle.Web\CqrsBattle.Web.csproj", "{0BE97B4B-EB3D-4BE2-A814-F33FC05D3770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsBattle.Web.Tests", "CqrsBattle.Web.Tests\CqrsBattle.Web.Tests.csproj", "{B0F9F5F5-A38B-468D-9A4D-78A6B2C182C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CqrsBattle.Core", "CqrsBattle.Core\CqrsBattle.Core.csproj", "{AF981462-EA84-49C2-8D08-ADE4F87FF597}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BE97B4B-EB3D-4BE2-A814-F33FC05D3770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE97B4B-EB3D-4BE2-A814-F33FC05D3770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE97B4B-EB3D-4BE2-A814-F33FC05D3770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE97B4B-EB3D-4BE2-A814-F33FC05D3770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF981462-EA84-49C2-8D08-ADE4F87FF597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF981462-EA84-49C2-8D08-ADE4F87FF597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF981462-EA84-49C2-8D08-ADE4F87FF597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF981462-EA84-49C2-8D08-ADE4F87FF597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F9F5F5-A38B-468D-9A4D-78A6B2C182C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F9F5F5-A38B-468D-9A4D-78A6B2C182C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F9F5F5-A38B-468D-9A4D-78A6B2C182C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F9F5F5-A38B-468D-9A4D-78A6B2C182C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
